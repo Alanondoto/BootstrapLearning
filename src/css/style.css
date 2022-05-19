@@ -118,3 +118,49 @@ nav {
     font-weight: 400;
     text-transform: uppercase;
 }
+.benefits {
+    position: relative;
+    min-height: 850px;
+    padding: 18px 0 64px;
+}
+.benefits .benefits_logo {
+    display: block;
+    margin: 0 auto;
+}
+.benefits .benefits_header {
+    margin-top: 32px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.benefits .row {
+    margin-top: 16px;
+    padding: 0 43px 0 33px;
+}
+.benefits .benefits_wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+.benefits .benefits_wrapper .benefits_item {
+    display: flex;
+    align-items: center;
+}
+.benefits .benefits_wrapper .benefits_item .benefits_round {
+    padding-right: 25px;
+}
+.benefits .benefits_wrapper .benefits_item .benefits_descr {
+    width: 371px;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 17px;
+    color: black;
+}
+.benefits span {
+    color: #1EACC7;
+    font-weight: 400;
+}
+
