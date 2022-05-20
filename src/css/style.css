@@ -137,7 +137,6 @@ nav {
     color: #222222;
 }
 .benefits .row {
-    margin-top: 16px;
     padding: 0 43px 0 33px;
 }
 .benefits .benefits_wrapper {
@@ -148,6 +147,27 @@ nav {
 .benefits .benefits_wrapper .benefits_item {
     display: flex;
     align-items: center;
+}
+.benefits .benefits_wrapper .item-1 {
+    margin-top: 16px;
+}
+.benefits .benefits_wrapper .item-2 {
+    margin-top: 26px;
+}
+.benefits .benefits_wrapper .item-3 {
+    margin-top: 31px;
+}
+.benefits .benefits_wrapper .item-4 {
+    margin-top: 27px;
+}
+.benefits .benefits_wrapper .item-5 {
+    margin-top: 48px;
+}
+.benefits .benefits_wrapper .item-6 {
+    margin-top: 30px;
+}
+.benefits .benefits_wrapper .item-7 {
+    margin-top: 28px;
 }
 .benefits .benefits_wrapper .benefits_item .benefits_round {
     padding-right: 25px;
