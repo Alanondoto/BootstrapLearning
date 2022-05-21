@@ -47,7 +47,7 @@ nav {
     color: #ffffff;
     font-size: 12px;
     font-weight: 300;
-    text-align: right;    
+    text-align: right;
 }
 .subheader .subheader_phone {
     display: block;
@@ -91,10 +91,10 @@ nav {
     color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 36px; 
-    line-height: 36px; 
+    font-size: 36px;
+    line-height: 36px;
     margin: 22px 0 0;
-    text-align: center;  
+    text-align: center;
 }
 .promo .promo_descr {
     font-size: 18px;
@@ -141,36 +141,22 @@ nav {
 }
 .benefits .benefits_wrapper {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .benefits .benefits_wrapper .benefits_item {
-    display: flex;
-    align-items: center;
-}
-.benefits .benefits_wrapper .item-1 {
-    margin-top: 16px;
-}
-.benefits .benefits_wrapper .item-2 {
     margin-top: 26px;
+    display: flex;
+    /*align-items: center;*/
 }
-.benefits .benefits_wrapper .item-3 {
-    margin-top: 31px;
-}
-.benefits .benefits_wrapper .item-4 {
-    margin-top: 27px;
-}
-.benefits .benefits_wrapper .item-5 {
-    margin-top: 48px;
-}
-.benefits .benefits_wrapper .item-6 {
-    margin-top: 30px;
-}
-.benefits .benefits_wrapper .item-7 {
-    margin-top: 28px;
+.benefits .benefits_wrapper .benefits_item:nth-child(2n+1) {
+    margin-right: 15px;
 }
 .benefits .benefits_wrapper .benefits_item .benefits_round {
     padding-right: 25px;
+    margin-top: 20px;
 }
 .benefits .benefits_wrapper .benefits_item .benefits_descr {
     width: 371px;
@@ -183,4 +169,3 @@ nav {
     color: #1EACC7;
     font-weight: 400;
 }
-
