@@ -1,3 +1,11 @@
+$main-color: #1eacc7
+$second-color: #ff5656
+
+=btn_hover
+  &:hover
+    background-image: none
+    background-color: $main-color
+
 *
   font-family: 'Roboto', sans-serif
 
@@ -98,6 +106,7 @@ nav
     font-size: 14px
     font-weight: 400
     text-transform: uppercase
+    +btn_hover
 
 .promo
   min-height: 800px
@@ -139,10 +148,12 @@ nav
     border: none
     border-radius: 4px
     background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
     color: #ffffff
     font-size: 18px
     font-weight: 400
     text-transform: uppercase
+    +btn_hover
 
 .benefits
   position: relative
@@ -228,11 +239,11 @@ nav
 		display: block
 		margin: 54px auto 0
 	&_under
-	font-weight: 300;
-	font-size: 17px;
-	line-height: 24px;
-	text-align: center;
-	color: #222222;
+	  font-weight: 300;
+	  font-size: 17px;
+	  line-height: 24px;
+	  text-align: center;
+	  color: #222222;
 
 
 
