@@ -309,10 +309,7 @@ nav
     color: #1FBAD6;
 .footer
   min-height: 156px 
-  padding: 14px 0 39px
-  &_social
-    margin: 0
-    width: 158px
+  padding: 14px 23px 39px
   &_devider
     &:before
       content: ''
@@ -321,32 +318,44 @@ nav
       width: 299px
       height: 4px 
       background: #1FBAD6
-  &_links
+  &_wrapper
     display: flex
     justify-content: space-between
-    margin-top: 30px
-    font-weight: 300
-    font-size: 15px
-    text-transform: uppercase
-    a
-      color: #070716
-  &_underlinks
-    display: flex
-    justify-content: space-evenly
-    margin-top: 15px
-    font-weight: 300
-    font-size: 11px
-    text-transform: uppercase
-    a
-      color: #999999
-  &_language
-    display: flex
-    justify-content: center
-    margin-top: 20px
-    font-weight: 400
-    font-size: 11px
+    align-items: center
+    margin-top: 36px
+  &_nav
+    width: 33%
     text-align: center
-    text-transform: uppercase
-    a
-      color: #1FBAD6
+    &_main
+      display: flex
+      justify-content: space-between
+      font-weight: 300
+      font-size: 15px
+      text-transform: uppercase
+      a
+        color: #070716
+    &_sub
+      display: flex
+      justify-content: space-between
+      margin-top: 17px
+      font-weight: 300
+      font-size: 11px
+      text-transform: uppercase
+      a
+        color: #999999
+    &_lang
+      margin-top: 19px
+      font-weight: 400
+      font-size: 11px
+      text-align: center
+      text-transform: uppercase
+      a
+        color: #1FBAD6
+  &_mobile
+    display: flex
+    width: 33%
+    justify-content: end
+  &_social
+    width: 33%
+
 
