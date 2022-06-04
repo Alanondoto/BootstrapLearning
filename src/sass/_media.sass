@@ -7,6 +7,13 @@
     .promo
         &_header
             font-size: 50px
+    .benefits
+        &_item
+            &:nth-child(2n+1)
+                margin-right: 0
+    .mobile
+        &_item
+            width: 310px
 @media (max-width: 991px)
     .menu
         &_item
@@ -30,6 +37,21 @@
             font-size: 40px
         &_subheader
             font-size: 30px
+    .mobile
+        &_item
+            width: 230px
+    .car
+        &_img
+            width: 700px
+    .footer
+        &_nav
+            &_main
+                font-size: 12px
+            &_sub
+                font-size: 8px
+        &_mobile
+            img
+                width: 200px
 @media (max-width: 767px)
     .menu
         position: fixed

@@ -38,12 +38,12 @@ nav
   margin: 0
   list-style-type: none
 
-  .menu_link
+  &_link
     color: #ffffff
     font-size: 15px
     font-weight: 300
 
-  .menu_item
+  &_item
     border-right: 2px dotted black
     padding-right: 28px
     &:last-child
@@ -55,26 +55,26 @@ nav
   height: 84px
   background-color: rgba(0, 0, 0, 0.6)
 
-  .subheader_logo
+  &_logo
     display: block
     max-width: 100%
     margin-top: 16px
 
-  .subheader_official
+  &_official
     margin-top: 6px
     opacity: 0.5
     color: #ffffff
     font-size: 13px
     font-weight: 400
 
-  .subheader_call
+  &_call
     margin-top: 19px
     color: #ffffff
     font-size: 12px
     font-weight: 300
     text-align: right
 
-  .subheader_phone
+  &_phone
     display: block
     margin-top: 8px
     color: #ffffff
@@ -84,7 +84,7 @@ nav
     text-align: right
     line-height: 12px
 
-  .subheader_btn
+  &_btn
     margin-top: 19px
     width: 172px
     height: 46px
@@ -154,36 +154,32 @@ nav
   .row
     padding: 0 43px 0 33px
 
-  .benefits_wrapper
+  &_wrapper
     display: flex
     flex-direction: row
     align-items: flex-start
     justify-content: center
     flex-wrap: wrap
 
-    .benefits_item
-      margin-top: 26px
-      display: flex
+  &_item
+    margin-top: 26px
+    display: flex
+    &:nth-child(2n+1)
+      margin-right: 15px
 
-      /*align-items: center;
+  &_round
+    padding-right: 25px
+    margin-top: 20px
 
-      &:nth-child(2n+1)
-        margin-right: 15px
-
-      .benefits_round
-        padding-right: 25px
-        margin-top: 20px
-
-      .benefits_descr
-        width: 371px
-        font-weight: 300
-        line-height: 21px
-        font-size: 17px
-        color: black
-
-  span
-    color: #1EACC7
-    font-weight: 400
+  &_descr
+    width: 371px
+    font-weight: 300
+    line-height: 21px
+    font-size: 17px
+    color: black
+    span
+      color: #1EACC7
+      font-weight: 400
 
 .mobile
     min-height: 864px
